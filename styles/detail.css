@@ -1,0 +1,66 @@
+.guests {
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+}
+/* 
+.detail--column {
+    flex-basis: 28%;
+    margin: 3 2rem;
+    border: 1px dotted rgb(17, 13, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+.services {
+    display: flex;
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.parks {
+    flex-wrap: wrap;
+    display: table-row;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.eachPark{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.park{
+    flex-basis: 30%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+.allTheDeets {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*.demotext {
+    color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    color: #000000;
+    background: #FFFFFF;
+    }
+ .highlight{
+        display: inline-block;
+        padding: .25em 0;
+        background: #FFC107;
+        color: #ffffff;
+    } */
+/* .title {
+    display: flex;
+    justify-content: left;
+    background-color: transparent;
+} */
+/* .name{
+    display: flex;
+    justify-self: center;
+} */
